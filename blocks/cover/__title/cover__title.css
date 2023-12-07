@@ -1,0 +1,13 @@
+.cover__title {
+    color: var(--text-color);
+    font-family: var(--standart-font), serif;
+    font-size: clamp(1.875rem, 1.5536rem + 1.6071vw, 3rem);
+    font-style: normal;
+    font-weight: var(--font-bold);
+    line-height: 65px; /* 135.417% */
+}
+@media (width <= 475px) {
+    .cover__title {
+        text-align: center;
+    }
+}

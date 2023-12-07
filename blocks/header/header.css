@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: center;
+    gap: clamp(30px, 7.5vw, 150px);
+    margin-block-start: 50px;
+    margin-block-end: 100px;
+}
+
+@media (width < 768px) {
+    .header {
+        flex-direction: column;
+        margin-block-end: 50px;
+
+    }
+}

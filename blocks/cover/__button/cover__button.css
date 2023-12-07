@@ -1,0 +1,21 @@
+.cover__button {
+    width: 130px;
+    min-height: 46px;
+    border-radius: 20px;
+    background: var(--button-color);
+    border: none;
+    cursor: pointer;
+}
+
+.cover__button:focus {
+    outline: none;
+}
+
+.cover__button:focus-visible {
+    outline: 1px solid var(--outline-color);
+}
+@media (width < 768px) {
+    .cover__button {
+        width: 200px;
+    }
+}

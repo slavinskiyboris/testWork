@@ -1,0 +1,9 @@
+.cover__form {
+    width: 100%;
+}
+@media (width < 768px) {
+    .cover__form {
+        display: flex;
+        justify-content: center;
+    }
+}

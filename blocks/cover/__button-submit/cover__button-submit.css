@@ -1,0 +1,16 @@
+.cover__button-submit {
+    border-radius: 50px;
+    border: none;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    background: url("../../../svg/search.svg") no-repeat center var(--button-color);
+}
+
+.cover__button-submit:focus {
+    outline: none;
+}
+
+.cover__button-submit:focus-visible {
+    outline: 1px solid var(--outline-color);
+}

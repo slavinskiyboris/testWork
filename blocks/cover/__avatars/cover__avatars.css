@@ -1,0 +1,10 @@
+.cover__avatars {
+    display: flex;
+}
+
+@media (width <= 475px) {
+    .cover__avatars {
+        position: relative;
+        left: 30px;
+    }
+}

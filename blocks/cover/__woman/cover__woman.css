@@ -1,0 +1,11 @@
+.cover__woman {
+    background: url("../../../images/woman.png") no-repeat center;
+    object-fit: cover;
+    position: relative;
+}
+
+@media (width < 1024px) {
+    .cover__woman {
+        display: none;
+    }
+}

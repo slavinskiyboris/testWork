@@ -1,0 +1,25 @@
+.cover__image {
+    max-width: 350px;
+    height: 407px;
+    object-fit: cover;
+    align-self: end;
+}
+
+
+/*.cover__image::before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    inset: 0;*/
+/*    background-color: #48B774;*/
+/*}*/
+/*@media (width < 768px) {*/
+/*    .cover__image {*/
+/*        display: none;*/
+/*    }*/
+/*}*/
+
+@media (width < 768px) {
+    .cover__image {
+        align-self: center;
+    }
+}

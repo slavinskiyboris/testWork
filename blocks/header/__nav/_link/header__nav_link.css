@@ -1,0 +1,21 @@
+.header__nav_link {
+    color: var(--text-color);
+    font-family: var(--standart-font), serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: var(--font-normal);
+    line-height: normal;
+    text-decoration: none;
+}
+
+.header__nav_link:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+.header__nav_link:focus {
+    outline: none;
+}
+
+.header__nav_link:focus-visible {
+    outline: 1px solid var(--outline-color);
+}

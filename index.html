@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test work</title>
+
+    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/animations.css" />
+
+    <link rel="icon" href="./images/favicon.ico" sizes="any">
+    <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./images/favicon.png">
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__logo">
+        <img class="header__image" src="./svg/logo.svg" alt="Логотип компании">
+        <h2 class="header__title">Global</h2>
+      </div>
+
+      <div class="header__nav">
+        <a class="header__nav_link" href="#">Mobile Top Up</a>
+        <a class="header__nav_link" href="#">About</a>
+        <a class="header__nav_link" href="#">Rate</a>
+        <a class="header__nav_link" href="#">Help</a>
+      </div>
+
+      <button type="button" class="header__button"><span class="header__button_text">Sing Up</span></button>
+
+    </header>
+
+
+    <main class="main">
+
+      <section class="cover">
+
+        <article class="cover__test">
+          <h1 class="cover__title">Now Buy Your<br>PIN or <span class="cover__span">Top Up</span><br>With Bank Transfer
+          </h1>
+          <p class="cover__paragraph">We Make international calling simple, relible, and cheap basedon your unique
+            calling behavior.</p>
+          <button type="button" class="cover__button"><span class="cover__button_text">Get Started</span></button>
+          <form class="cover__form">
+            <fieldset class="cover__fieldset">
+              <label for="text" class="visually-hidden">Поиск</label>
+              <input class="cover__input" type="text" placeholder="Where do you want to call?" id="text" minlength="4"
+                     maxlength="12" pattern="[^!@#$%&*\(\)^]+"/>
+              <button type="submit" class="cover__button-submit"></button>
+            </fieldset>
+          </form>
+          <div class="cover__content">
+            <div class="cover__avatars">
+              <img class="cover__avatars_image relative" src="./svg/avatar1.svg" alt="Аватарка какого-то мужика">
+              <img class="cover__avatars_image relative" src="./svg/avatar2.svg" alt="Аватарка, но уже другого мужика">
+              <img class="cover__avatars_image relative" src="./svg/avatar3.svg" alt="Тоже мужик, но капец волосатый">
+              <div class="cover__avatars_item"></div>
+            </div>
+            <p class="cover__paragraph cover__paragraph_item">45k+ Regular User.&nbsp;<span class="cover__span">View Price Plan</span>
+            </p>
+          </div>
+        </article>
+
+        <article class="cover__woman">
+          <div class="cover__loader">
+            <img class="icon1" src="./svg/world.svg" alt="Флаг Индии">
+            <img class="icon2" src="./svg/world.svg" alt="Флаг Индии">
+            <img class="icon3" src="./svg/world.svg" alt="Флаг Индии">
+            <img class="icon4" src="./svg/world.svg" alt="Флаг Индии">
+            <img class="icon5" src="./svg/world.svg" alt="Флаг Индии">
+          </div>
+          <img class="cover__circle" src="./images/krug.png" alt="Зеленый кружок">
+        </article>
+
+      </section>
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+  </body>
+
+</html>

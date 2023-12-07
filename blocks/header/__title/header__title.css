@@ -1,0 +1,14 @@
+.header__title {
+    color: var(--text-color);
+    font-family: var(--standart-font), serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: var(--font-medium);
+    line-height: normal;
+    align-self: center;
+}
+@media (width < 768px) {
+    .header__title {
+        font-size: 35px;
+    }
+}

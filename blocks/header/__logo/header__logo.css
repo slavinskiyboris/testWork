@@ -1,0 +1,10 @@
+.header__logo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+@media (width < 768px) {
+    .header__logo {
+        justify-content: center;
+    }
+}

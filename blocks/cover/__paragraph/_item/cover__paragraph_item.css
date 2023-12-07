@@ -1,0 +1,10 @@
+.cover__paragraph_item {
+    position: relative;
+    right: 50px;
+}
+
+@media (width <= 475px) {
+    .cover__paragraph_item {
+        right: 0;
+    }
+}

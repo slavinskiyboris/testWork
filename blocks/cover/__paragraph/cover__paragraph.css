@@ -1,0 +1,17 @@
+.cover__paragraph {
+    color: var(--paragraph-color);
+    font-family: var(--standart-font), serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: var(--font-medium);
+    line-height: 26px; /* 173.333% */
+    max-width: 444px;
+}
+
+@media (width <= 475px) {
+    .cover__paragraph {
+        padding-right: 15px;
+        padding-left: 15px;
+        text-align: center;
+    }
+}

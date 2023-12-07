@@ -1,0 +1,14 @@
+:root {
+    --standart-font: 'Poppins';
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-bold: 700;
+    --background-color: #ECF7F3;
+    --button-color: #48B774;
+    --button-text-color: #FFF; /*AND AVATARS_ITEM BACKGROUND*/
+    --span-color: #FF8345;
+    --outline-color: #4A4A4A;
+    --text-color: #2D2D2D;
+    --paragraph-color: #7C7C7C;
+    --placeholder: #A1A1A1;
+}
