@@ -1,0 +1,24 @@
+.header__dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.header__dropdown_content .header__dropdown_link {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.header__dropdown_content .header__dropdown_link:hover {
+    background-color: #f1f1f1
+}
+
+.header__dropdown:hover .header__dropdown_content {
+    display: block;
+}
+
+.header__dropdown:hover .header__dropdown_button {
+    background-color: var(--button-color);
+}

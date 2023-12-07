@@ -10,6 +10,6 @@
     .header {
         flex-direction: column;
         margin-block-end: 50px;
-
+        align-items: center;
     }
 }
