@@ -1,7 +1,6 @@
 .header__dropdown {
     position: relative;
-    display: inline-block;
-
+    display: none;
 }
 
 .header__dropdown_content .header__dropdown_link {
@@ -26,4 +25,10 @@
 
 .header__dropdown:hover .header__dropdown_button {
     background-color: var(--button-color);
+}
+
+@media (width < 768px) {
+    .header__dropdown {
+        display: inline-block;
+    }
 }
