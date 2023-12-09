@@ -1,10 +1,13 @@
 .header__dropdown_button {
     background-color: var(--span-color);
-    color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
     width: 200px;
     border-radius: 20px;
-}
+    color: var(--button-text-color);
+    font-family: var(--standart-font), serif;
+    font-style: normal;
+    font-weight: var(--font-medium);
+    line-height: normal;}

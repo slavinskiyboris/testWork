@@ -5,10 +5,15 @@
 }
 
 .header__dropdown_content .header__dropdown_link {
-    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    color: #4A4A4A;
+    font-family: var(--standart-font), serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: var(--font-normal);
 }
 
 .header__dropdown_content .header__dropdown_link:hover {
