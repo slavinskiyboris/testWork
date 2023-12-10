@@ -27,6 +27,14 @@
     background-color: var(--button-color);
 }
 
+.header__dropdown_link:focus {
+    outline: none;
+}
+
+.header__dropdown_link:focus-visible {
+    outline: 1px solid var(--outline-color);
+}
+
 @media (width < 768px) {
     .header__dropdown {
         display: inline-block;

@@ -12,3 +12,11 @@
     font-weight: var(--font-medium);
     line-height: normal;
 }
+
+.header__dropdown_button:focus {
+    outline: none;
+}
+
+.header__dropdown_button:focus-visible {
+    outline: 1px solid var(--outline-color);
+}
