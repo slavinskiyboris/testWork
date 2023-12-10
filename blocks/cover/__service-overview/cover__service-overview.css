@@ -7,5 +7,6 @@
 @media (width < 768px) {
     .cover__service-overview {
         align-items: center;
+        margin-block-end: 50px;
     }
 }
