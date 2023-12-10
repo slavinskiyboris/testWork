@@ -14,3 +14,8 @@
 .cover__button-submit:focus-visible {
     outline: 1px solid var(--outline-color);
 }
+
+.cover__button-submit:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
