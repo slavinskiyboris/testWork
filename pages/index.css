@@ -35,6 +35,8 @@
 @import url(../blocks/cover/__circle/cover__circle.css);
 @import url(../blocks/cover/__woman/cover__woman.css);
 @import url(../blocks/cover/__paragraph/_link/cover__paragraph_link.css);
+@import url(../blocks/cover/__label/cover__label.css);
+@import url(../blocks/cover/__service-overview/cover__service-overview.css);
 /*RELATIVE*/
 @import url(../blocks/relative/relative.css);
 /*PAGE and MAIN*/

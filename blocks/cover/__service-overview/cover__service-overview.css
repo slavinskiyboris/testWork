@@ -1,0 +1,11 @@
+.cover__service-overview {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media (width < 768px) {
+    .cover__service-overview {
+        align-items: center;
+    }
+}

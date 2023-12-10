@@ -5,21 +5,6 @@
 }
 @media (width < 768px) {
     .cover {
-        /*align-items: center;*/
         flex-direction: column;
-    }
-}
-
-
-
-.cover__test {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-
-@media (width < 768px) {
-    .cover__test {
-        align-items: center;
     }
 }
